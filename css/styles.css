@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+  font-family: helvetica;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 150px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+form {
+  background-color: #fffbfb;
+  width: 25%;
+  height: 350px;
+  border-radius: 6px;
+  margin: auto;
+  padding-top: 40px;
+  box-shadow: 2px 2px 8px #3d3b3b;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between ;
+  width: 80%;
+  height: 280px;
+  margin: auto;
+  font-weight: bold;
+  border: none;
+}
+
+legend {
+  margin-bottom: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+label {
+  padding-bottom: 1rem;
+}
+
+#User, #pass {
+  padding: 14px;
+  width: 100%;
+  margin-top: -20px;
+  border-radius: 7px;  
+}
+
+.container-btn {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-entrar, .btn-apagar {  
+  padding: 10px;
+  width: 90%;
+  font-weight: bold;
+  border-radius: 7px;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+
+.btn-entrar {
+  background-color: rgb(3, 3, 145);
+}
+
+.btn-apagar {
+  background-color: rgb(133, 5, 5);
+}
+
+.btn-entrar:hover {
+  background-color: rgba(3,3, 145, .5);
+}
+
+.btn-apagar:hover {
+  background-color: rgba(133, 5, 5, .5);
+}
